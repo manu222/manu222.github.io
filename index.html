@@ -8,74 +8,61 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <nav>
+        <div class="logo">
+            <h2>MA</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
         <div class="container">
+            <img src="tu_foto.jpg" alt="Foto de Manuel Araújo" class="profile-img">
             <h1>Manuel Araújo Baño</h1>
-            <p>Estudiante de Ingeniería Informática | Apasionado por la Ciberseguridad</p>
-            <a href="https://www.linkedin.com/in/manuel-araújo-baño-87955a150/" target="_blank" class="linkedin-button">Ver Perfil en LinkedIn</a>
+            <p>Estudiante de Ingeniería Informática</p>
+            <p>Apasionado por la Ciberseguridad | Innovador | Trabajando para un futuro más seguro en el mundo digital</p>
+            <a href="tu_cv.pdf" class="cv-button" download>Descargar CV</a>
         </div>
     </header>
 
-    <main>
-        <section id="about">
-            <h2>Sobre mí</h2>
-            <p>Soy estudiante de Ingeniería Informática en la Universidad Europea de Madrid, apasionado por la ciberseguridad, especialmente en áreas como el Threat Hunting y el Pentesting. Aunque no tengo experiencia directa en este campo, estoy muy motivado para aprender y desarrollarme en esta área. Tengo habilidades para trabajar en equipo y aprender de mis compañeros.</p>
-        </section>
+    <section id="projects">
+        <h2>Algunos de mis proyectos</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="proyecto1.png" alt="Proyecto 1">
+                <h3>Proyecto 1</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="project-card">
+                <img src="proyecto2.png" alt="Proyecto 2">
+                <h3>Proyecto 2</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+            <div class="project-card">
+                <img src="proyecto3.png" alt="Proyecto 3">
+                <h3>Proyecto 3</h3>
+                <p>Descripción breve del proyecto.</p>
+            </div>
+        </div>
+        <button class="all-projects">Ver todos mis proyectos</button>
+    </section>
 
-        <section id="skills">
-            <h2>Habilidades</h2>
-            <ul>
-                <li>Desarrollo con Java (POO), C++ (POO), PHP, CSS, HTML</li>
-                <li>Administración de redes y servidores</li>
-                <li>Bases de datos</li>
-                <li>Sistemas operativos</li>
-                <li>Metodologías AGILE</li>
-                <li>Creación de servidores Nextcloud para nube privada</li>
-                <li>Configuración de Firewalls</li>
-                <li>Automatización de tareas con Scripts (WakeOnLan, Copias de seguridad)</li>
-            </ul>
-        </section>
-
-        <section id="experience">
-            <h2>Experiencia Laboral</h2>
-            <p><strong>Técnico ASIR en ITAE (Prácticas)</strong></p>
-            <ul>
-                <li>Gestión de bases de datos y administración de servidores</li>
-                <li>Desarrollo de scripts para copias de seguridad automáticas</li>
-                <li>Configuración y mantenimiento de servidores Nextcloud</li>
-                <li>Configuración de firewalls</li>
-            </ul>
-        </section>
-
-        <section id="education">
-            <h2>Datos Académicos</h2>
-            <ul>
-                <li><strong>Cursando:</strong> Grado en Ingeniería Informática, Universidad Europea de Madrid</li>
-                <li><strong>Técnico ASIR:</strong> IES Doctor Balmis, 2020-2022</li>
-                <li><strong>Bachillerato Científico:</strong> Colegio San Agustín Alicante, 2018-2019</li>
-            </ul>
-        </section>
-
-        <section id="languages">
-            <h2>Idiomas</h2>
-            <ul>
-                <li>Castellano: Nativo</li>
-                <li>Inglés: B2</li>
-                <li>Valenciano: Básico</li>
-            </ul>
-        </section>
-
-        <section id="contact">
-            <h2>Contacto</h2>
-            <p>Teléfono: 684337097</p>
-            <p>Email: <a href="mailto:manuaraba@gmail.com">manuaraba@gmail.com</a></p>
-            <p>Ubicación: Madrid, Villaviciosa de Odón</p>
-            <p>Vehículo propio y disponibilidad para viajar.</p>
-        </section>
-    </main>
+    <section id="skills">
+        <h2>Mis habilidades</h2>
+        <div class="skills-container">
+            <img src="icon-java.png" alt="Java">
+            <img src="icon-js.png" alt="JavaScript">
+            <img src="icon-html.png" alt="HTML">
+            <img src="icon-css.png" alt="CSS">
+            <!-- Añade más iconos según tus habilidades -->
+        </div>
+    </section>
 
     <footer>
-        <p>&copy; 2024 Manuel Araújo Baño | Todos los derechos reservados.</p>
+        <p>&copy; 2024 Manuel Araújo Baño</p>
     </footer>
 
     <script src="script.js"></script>
