@@ -9,16 +9,35 @@ body {
 header {
     background-color: #4CAF50;
     color: #fff;
-    padding: 30px 0;
+    padding: 50px 0;
     text-align: center;
+    position: relative;
+    margin-top: 70px;
+
+}
+
+.profile-img-container {
+    position: relative;
+}
+
+.profile-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20%;
     margin: 0 auto;
+    text-align: center;
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav a {
@@ -76,6 +95,23 @@ header p {
 .github-button:hover {
     background-color: #000;
 }
+
+.cv-button {
+    display: inline-block;
+    padding: 12px 25px;
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.cv-button:hover {
+    background-color: #45a049;
+}
+
 /* Estilos del main */
 main {
     max-width: 1200px;
@@ -83,12 +119,17 @@ main {
     padding: 0 20px;
 }
 
-section {
+section{
     background-color: #fff;
     border-radius: 8px;
     padding: 25px;
     margin-bottom: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#about{
+    text-align: center;
 }
 
 h2 {
