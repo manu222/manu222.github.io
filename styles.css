@@ -108,6 +108,14 @@ header p {
     transition: background-color 0.3s;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
 .cv-button:hover {
     background-color: #45a049;
 }
